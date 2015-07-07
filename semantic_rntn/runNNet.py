@@ -1,10 +1,11 @@
 import optparse
 import cPickle as pickle
+import time
 
 import sgd as optimizer
-import rntn as nnet
+from semantic_rntn import rntn as nnet
 import tree as tr
-import time
+
 
 def run(args=None):
     usage = "usage : %prog [options]"
